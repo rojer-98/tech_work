@@ -1,0 +1,32 @@
+[package]
+name = "tech_work"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Random 
+rand = "0.8.5"
+
+# Math
+statrs = "0.16.0"
+
+# Erroor
+anyhow = "1.0.81"
+
+# Async 
+tokio = { version =  "1.36.0", features = [ "full" ]}
+futures = "0.3.30"
+
+# Log 
+log = "0.4.21"
+env_logger = "0.11.3"
+
+# GUI
+dialoguer = "0.11.0"
+
+# Serialize|Deserialize
+serde = { version = "1.0.190", default-features = false, features = [ "derive" ] }
+serde_yaml = "0.9"
+
+# Helpers
+lazy_static = "1.4.0"
